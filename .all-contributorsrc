@@ -9,6 +9,7 @@
   "imageSize": 30,
   "commit": true,
   "commitConvention": "none",
+  "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/></a>",
   "contributors": [
     {
       "login": "Lijiaoa",
@@ -18,8 +19,16 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "Lvybriage",
+      "name": "Lijiao",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61399850?v=4",
+      "profile": "https://github.com/lvybriage",
+      "contributions": [
+        "code"
+      ]
     }
   ],
-  "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br /><sub><b><%= contributor.name %></b></sub></a>",
   "contributorsPerLine": 7
 }
