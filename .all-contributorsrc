@@ -1,0 +1,25 @@
+{
+  "projectName": "icon",
+  "projectOwner": "lijiaoaa",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 30,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "Lijiaoa",
+      "name": "Lijiaoa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61399850?v=4",
+      "profile": "https://github.com/Lijiaoa",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br /><sub><b><%= contributor.name %></b></sub></a>",
+  "contributorsPerLine": 7
+}
